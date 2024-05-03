@@ -1,0 +1,22 @@
+.navigation {
+    margin-bottom: 20px;
+}
+.navigation__container{
+    overflow-y: auto;
+}
+
+@media(max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
+}

@@ -1,13 +1,13 @@
-import ColdDishesPage from './page/coldDishesPage/ColdDishesPage';
-import Home from './page/home/Home';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './router/router';
+import { StoreProvider } from './redux/StoreProvider';
 
 function App() {
-  return (
-    <div>
-      {/* <Home/> */}
-      <ColdDishesPage/>
-    </div>
-  );
+    return (
+        <StoreProvider>
+            <RouterProvider router={router} />
+        </StoreProvider>
+    );
 }
 
 export default App;

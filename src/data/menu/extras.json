@@ -1,0 +1,170 @@
+[
+    {
+        "id": "ce856726-ee6b-414f-a1b2-492231d977e7",
+        "name": "Порция имбиря",
+        "price_for_mid": 30,
+        "img": "T9A2lUJGPHs.jpg"
+    },
+    {
+        "id": "e08127b3-609a-4a09-91bb-16225d979f7e",
+        "name": "Порция Васаби",
+        "price_for_mid": 30,
+        "img": "T9A2lUJGPHs.jpg"
+    },
+    {
+        "id": "063bfd4e-a7e3-4728-ad7c-1c8a74e83f82",
+        "name": "Порция соевого соуса",
+        "price_for_mid": 30,
+        "img": "T9A2lUJGPHs.jpg"
+    },
+    {
+        "id": "ac8e3162-79b2-480b-9751-7d534174c9e4",
+        "name": "Cоус ким чи 50гр",
+        "price_for_mid": 50,
+        "img": "noCSPJkdXBw.jpg"
+    },
+    {
+        "id": "bc18f675-2c05-456c-951e-c21e38b758c3",
+        "name": "Cоус ореховый 50гр",
+        "price_for_mid": 50,
+        "img": "nBOMdpbD1JQ.jpg"
+    },
+    {
+        "id": "78043c82-49e2-41a1-adcc-9b2f91e8d31a",
+        "name": "Cоус спайси 50гр",
+        "price_for_mid": 50,
+        "img": "2H09HpIT83g.jpg"
+    },
+    {
+        "id": "16fbe9bc-3264-461b-b485-9dbda5e7693b",
+        "name": "Картофель фри с соусом 100/25гр",
+        "price_for_mid": 130,
+        "img": "1-tmeDlwBuM.jpg"
+    },
+    {
+        "id": "9478d91c-9542-4305-8160-99ee6cc910f6",
+        "name": "Кольца кальмаров в кляре с соусом 100/25гр",
+        "price_for_mid": 160,
+        "img": "a3uw6ZqnKl0.jpg"
+    },
+    {
+        "id": "83bdbf84-24a7-4133-8bbf-cba1a995170b",
+        "name": "Луковые кольца с соусом 120/25гр",
+        "price_for_mid": 140,
+        "img": "WTi5yDsRICA.jpg"
+    },
+    {
+        "id": "fe5b9bc9-0fd8-40d1-a7a8-0a90068d38b2",
+        "name": "Наггетсы из мяса цыпленка с соусом 8шт/25гр",
+        "price_for_mid": 160,
+        "img": "1dec-sl9mwI.jpg"
+    },
+    {
+        "id": "4692f46b-7462-4ab2-bf3b-41be8693af6d",
+        "name": "Салат Чука",
+        "price_for_mid": 100,
+        "img": "Rv6HMRxyoxk.jpg"
+    },
+    {
+        "id": "2a48d64c-ba35-4ac7-85a8-4b0a952f02b2",
+        "name": "Чука с креветкой",
+        "price_for_mid": 150,
+        "img": "Rv6HMRxyoxk.jpg"
+    },
+    {
+        "id": "728fe2dd-9bc1-4dde-80bd-c37003aae0ef",
+        "name": "Чука с угрем",
+        "price_for_mid": 180,
+        "img": "Rv6HMRxyoxk.jpg"
+    },
+    {
+        "id": "bc7c79d1-cc05-46b3-8974-99116acad6dd",
+        "name": "Лапша Фунчеза с овощами 200гр",
+        "price_for_mid": 120,
+        "img": "_DD6WpjTFno.jpg"
+    },
+    {
+        "id": "a57bc87d-c489-4dee-a347-56358be1f73e",
+        "name": "Лапша Удон с овощами 200гр",
+        "price_for_mid": 120,
+        "img": "_DD6WpjTFno.jpg"
+    },
+    {
+        "id": "9423f871-7c17-47b8-b6ae-fffadb4636fd",
+        "name": "Лапша Рамэн с овощами 200гр",
+        "price_for_mid": 120,
+        "img": "_DD6WpjTFno.jpg"
+    },
+    {
+        "id": "c408d040-bf82-484d-be11-54498389b9ed",
+        "name": "Рис Японский с овощами 200гр",
+        "price_for_mid": 120,
+        "img": "_DD6WpjTFno.jpg"
+    },
+    {
+        "id": "17b6e234-a7d1-4dc2-afe3-4941c9b1a101",
+        "name": "Рис Японский с овощами 200гр",
+        "price_for_mid": 120,
+        "img": "_DD6WpjTFno.jpg"
+    },
+    {
+        "id": "4612d528-a07e-4d78-83ae-b888801ac3cd",
+        "name": "Фреш ролл с беконом 240гр",
+        "compound": "Мексиканская лепешка, помидор, свежий огурчик, лист салата, лук красный, моцарелла, бекон, соуса:рыба&рис, томатный",
+        "price_for_mid": 220,
+        "img": "njkSSWE_Nk4.jpg"
+    },
+    {
+        "id": "7a288281-c64a-4ae5-9c78-91eefcadc5c8",
+        "name": "Фреш ролл с креветкой 240гр",
+        "compound": "Мексиканская лепешка, помидор, свежий огурчик, лист салата, моцарелла, креветка в кляре, соус 1000остр",
+        "price_for_mid": 240,
+        "img": "UE-CSIjrm7A.jpg"
+    },
+    {
+        "id": "cd5d107b-e70b-4fc6-95f2-82ddc08c9950",
+        "name": "Фреш ролл с рыбкой 240гр",
+        "compound": "Мексиканская лепешка, помидор, свежий огурчик, лист салата, моцарелла, рыбные палочки, соус чесночный",
+        "price_for_mid": 200,
+        "img": "PtQLcLJK1C0.jpg"
+    },
+    {
+        "id": "7333e8cf-7f46-412d-b502-c9c30772566d",
+        "name": "Чизкейк клубничный",
+        "price_for_mid": 180,
+        "img": "Yn6jcVCISMU.jpg"
+    },
+    {
+        "id": "5008d261-4785-4e3c-8235-83729b108e51",
+        "name": "Чизкейк Сникерс",
+        "price_for_mid": 180,
+        "img": "WNmgLqM4KAU.jpg"
+    },
+    {
+        "id": "11e8193e-d581-4350-95e5-50650c94049d",
+        "name": "Онигири темпура с лососем",
+        "price_for_mid": 290,
+        "img": "XMD_02BsiMo.jpg"
+    },
+    {
+        "id": "3d4ed50a-f6e3-4430-a857-571866bb20e7",
+        "name": "Онигири темпура с курицей",
+        "price_for_mid": 290,
+        "img": "9D3IWfHTkvk.jpg"
+    },
+    {
+        "id": "23cfa14c-b3df-4a44-869d-0227eb05ea7b",
+        "name": "Запеченные Мидии",
+        "compound": "фирменная заправка, соус унаги, кунжут, лимон",
+        "price_for_mid": 260,
+        "price_for_large": 400,
+        "img": "Gz2e5wULuKw.jpg"
+    },
+    {
+        "id": "15d49312-f50f-4eb3-bf1a-7983994843e3",
+        "name": "Фри бокс с беконом 260гр",
+        "compound": "бекон, соус сырный, соус томатный",
+        "price_for_mid": 280,
+        "img": "A6hZoU6_pDM.jpg"
+    }
+]

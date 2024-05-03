@@ -7,7 +7,6 @@ export const coldRolls: IDish[] = [
         id: '',
         name: 'Сяке маки',
         compound: 'Лосось с/с, икорная шапочка',
-        price_for_mid: 0,
         price_for_large: 160,
         img: 'LQzku-niAqM.jpg'
     },
@@ -15,7 +14,6 @@ export const coldRolls: IDish[] = [
         id: '',
         name: 'Текка маки',
         compound: 'Тунец, свежий огурчик, икорная шапочка',
-        price_for_mid: 0,
         price_for_large: 180,
         img: 'yPiciDJCL9Y.jpg'
     },
@@ -23,7 +21,6 @@ export const coldRolls: IDish[] = [
         id: '',
         name: 'Крабик',
         compound: 'Творожный сыр, мясо краба, икорная шапочка',
-        price_for_mid: 0,
         price_for_large: 170,
         img: 'QO-14tGUxCU.jpg'
     },
@@ -31,7 +28,6 @@ export const coldRolls: IDish[] = [
         id: '',
         name: 'Лава',
         compound: 'рис, лосось, огурчик, Ким чи',
-        price_for_mid: 0,
         price_for_large: 190,
         img: 'pJy-cW9WoaI.jpg'
     },
@@ -39,7 +35,6 @@ export const coldRolls: IDish[] = [
         id: '',
         name: 'Гейша маки',
         compound: 'Творожный сыр, копченый лосось, зелёный лук',
-        price_for_mid: 0,
         price_for_large: 200,
         img: 'DlUW1JrOOXc.jpg'
     },
@@ -47,7 +42,6 @@ export const coldRolls: IDish[] = [
         id: '',
         name: 'Икура маки',
         compound: 'Творожный сыр, икра лососевая)',
-        price_for_mid: 0,
         price_for_large: 230,
         img: '30I_IXf8YmA.jpg'
     },
@@ -55,7 +49,6 @@ export const coldRolls: IDish[] = [
         id: '',
         name: 'Унаги маки',
         compound: 'Угорь, свежий огурчик, соус Унаги, кунжут',
-        price_for_mid: 0,
         price_for_large: 210,
         img: 'TpdPj7SUBoo.jpg'
     },
@@ -63,7 +56,6 @@ export const coldRolls: IDish[] = [
         id: '',
         name: 'Тори маки',
         compound: 'сливочный сыр, курочка, икорная шапочка',
-        price_for_mid: 0,
         price_for_large: 200,
         img: 'zjuji5uNt7E.jpg'
         // шакалья фотка
@@ -72,7 +64,6 @@ export const coldRolls: IDish[] = [
         id: '',
         name: 'Эби маки',
         compound: 'Творожный сыр, икра Тобико, креветка',
-        price_for_mid: 0,
         price_for_large: 210,
         img: 'BbEl5HpDkmc.jpg'
     },
@@ -80,7 +71,6 @@ export const coldRolls: IDish[] = [
         id: '',
         name: 'Бекон маки',
         compound: 'Рис, сливочный сыр, зеленый лук, бекон',
-        price_for_mid: 0,
         price_for_large: 200,
         img: 'R6qZmV1FXDg.jpg'
     },
@@ -88,7 +78,6 @@ export const coldRolls: IDish[] = [
         id: '',
         name: 'Каппа маки',
         compound: 'свежий огурчик, творожный сыр',
-        price_for_mid: 0,
         price_for_large: 100,
         img: '9PWsZnQ9-9E.jpg'
     },
@@ -96,7 +85,6 @@ export const coldRolls: IDish[] = [
         id: '',
         name: 'Фитнес',
         compound: 'Свежий огурчик, болгарский перец, помидор, лист салата, соус Ореховый',
-        price_for_mid: 0,
         price_for_large: 180,
         img: '3hMJtZz_Ol8.jpg'
     },
@@ -104,7 +92,6 @@ export const coldRolls: IDish[] = [
         id: '',
         name: 'Чука маки',
         compound: 'Водоросли Чука, соус Ореховый',
-        price_for_mid: 0,
         price_for_large: 120,
         img: '7Hp_WlNM_9Q.jpg'
     },
@@ -112,7 +99,6 @@ export const coldRolls: IDish[] = [
         id: '',
         name: 'Шиитаке маки',
         compound: 'рис, грибы шиитаке, омлет Томаго',
-        price_for_mid: 0,
         price_for_large: 140,
         img: 'tAOFOdfEsx4.jpg'
     },
@@ -128,7 +114,6 @@ export const coldRolls: IDish[] = [
         id: '',
         name: 'Ига маки',
         compound: 'Рис, вареные мидии, лист салата, кунжут',
-        price_for_mid: 0,
         price_for_large: 180,
         img: 'TOIGkcieCr8.jpg'
     },
@@ -200,7 +185,6 @@ export const coldRolls: IDish[] = [
         id: '',
         name: 'Либерти',
         compound: 'сливочный сыр,маменори, креветка, салат, икорная шапочка, ореховый соус',
-        price_for_mid: 0,
         price_for_large: 320,
         img: 'JlBaX_0iK4U.jpg'
     },
@@ -208,7 +192,6 @@ export const coldRolls: IDish[] = [
         id: '',
         name: 'Ига ролл',
         compound: 'Маменори, творожный сыр, мидии, свежий огурчик, икорная шапочка',
-        price_for_mid: 0,
         price_for_large: 320,
         img: 'ykdyPV3PzuE.jpg'
     },
@@ -372,7 +355,6 @@ export const friedRolls: IDish[] = [
         id: '',
         name: 'Эби темпура',
         compound: 'Творожный сыр, креветка, водоросли Чука, соус Ореховый',
-        price_for_mid: 0,
         price_for_large: 310,
         img: 's3d-LvHMEYE.jpg'
     },
@@ -380,7 +362,6 @@ export const friedRolls: IDish[] = [
         id: '',
         name: 'Блэк',
         compound: 'Творожный сыр, креветка, угорь, икра Тобико, икорная шапочка',
-        price_for_mid: 0,
         price_for_large: 300,
         img: 'X6cjkdwfKEI.jpg'
     },
@@ -388,7 +369,6 @@ export const friedRolls: IDish[] = [
         id: '',
         name: 'Унаги темпура',
         compound: 'Творожный сыр, угорь, омлет Томаго, соус Унаги',
-        price_for_mid: 0,
         price_for_large: 320,
         img: 'NtxqldkN5Pw.jpg'
     },
@@ -396,7 +376,6 @@ export const friedRolls: IDish[] = [
         id: '',
         name: 'Сяке темпура',
         compound: 'Творожный сыр, лосось с/с, свежий огурчик, зелёный лук, икорная шапочка',
-        price_for_mid: 0,
         price_for_large: 320,
         img: 'cc67Ui3fvEo.jpg'
     },
@@ -404,7 +383,6 @@ export const friedRolls: IDish[] = [
         id: '',
         name: 'Унаги-сяке темпура',
         compound: 'Творожный сыр, лосось с/с, угорь, свежий огурчик, икорная шапочка, соус Унаги',
-        price_for_mid: 0,
         price_for_large: 350,
         img: 'LV9P9O8ZchM.jpg'
     },
@@ -412,7 +390,6 @@ export const friedRolls: IDish[] = [
         id: '',
         name: 'Куш',
         compound: 'Творожный сыр, курочка, омлет Томаго, шапочка Куш',
-        price_for_mid: 0,
         price_for_large: 300,
         img: '2N-0QIN5EGI.jpg'
     },
@@ -420,7 +397,6 @@ export const friedRolls: IDish[] = [
         id: '',
         name: 'Оригами',
         compound: 'Творожный сыр, курочка, бекон, лук фри, соус Барбекю',
-        price_for_mid: 0,
         price_for_large: 290,
         img: 'ebj9hKHw7Fs.jpg'
     },
@@ -428,7 +404,6 @@ export const friedRolls: IDish[] = [
         id: '',
         name: 'Тори темпура',
         compound: 'Творожный сыр, курочка, свежий огурчик, соус Спайси',
-        price_for_mid: 0,
         price_for_large: 290,
         img: 'tfpEjPr-Lyg.jpg'
     },
@@ -436,7 +411,6 @@ export const friedRolls: IDish[] = [
         id: '',
         name: 'Кани темпура',
         compound: 'Творожный сыр, мясо краба, икра Тобико',
-        price_for_mid: 0,
         price_for_large: 290,
         img: 'R4xE88Ot_dY.jpg'
     },
@@ -444,7 +418,6 @@ export const friedRolls: IDish[] = [
         id: '',
         name: 'Цезарь Хот',
         compound: 'Курочка, помидор, лист салата, лук фри, соус Чесночный',
-        price_for_mid: 0,
         price_for_large: 280,
         img: 'FcjVnfKp4I8.jpg'
     },
@@ -452,7 +425,6 @@ export const friedRolls: IDish[] = [
         id: '',
         name: 'Америка',
         compound: 'Творожный сыр, креветка, икра Тобико, шапочка Фиеста с мидиями',
-        price_for_mid: 0,
         price_for_large: 300,
         img: '7XvSaydlH68.jpg'
     },
@@ -460,7 +432,6 @@ export const friedRolls: IDish[] = [
         id: '',
         name: 'Текка темпура',
         compound: 'Творожный сыр, тунец, свежий огурчик, икорная шапочка',
-        price_for_mid: 0,
         price_for_large: 300,
         img: '-qV_yPe8BRg.jpg'
     },
@@ -468,7 +439,6 @@ export const friedRolls: IDish[] = [
         id: '',
         name: 'Вегас',
         compound: 'Творожный сыр, грибы Шиитаке, зеленый лук, соус Терияке',
-        price_for_mid: 0,
         price_for_large: 260,
         img: '8nzptjg1Gxo.jpg'
     },
@@ -476,7 +446,6 @@ export const friedRolls: IDish[] = [
         id: '',
         name: 'Чикен темпура',
         compound: 'сливочный сыр, курица, помидор, пармезан',
-        price_for_mid: 0,
         price_for_large: 300,
         img: 'bbcJX-l7JHs.jpg'
     },
@@ -484,7 +453,6 @@ export const friedRolls: IDish[] = [
         id: '',
         name: 'Токио',
         compound: 'сливочный сыр, лосось, огурец, сырная шапочка, соус унаги, лук жаренный',
-        price_for_mid: 0,
         price_for_large: 310,
         img: 'XNUULdN_1HY.jpg'
     },
@@ -495,7 +463,6 @@ export const bakedRolls: IDish[] = [
         id: '',
         name: 'Вулкан',
         compound: 'Творожный сыр, мясо краба, сырная шапочка, соус Спайси',
-        price_for_mid: 0,
         price_for_large: 250,
         img: 'EnVsRaFpWDY.jpg'
     },
@@ -503,7 +470,6 @@ export const bakedRolls: IDish[] = [
         id: '',
         name: 'Изуми',
         compound: 'Творожный сыр, креветка, свежий огурчик, лосось с/с, сырная шапочка, соус Унаги, кунжут',
-        price_for_mid: 0,
         price_for_large: 290,
         img: 'suoGTIWOQr0.jpg'
     },
@@ -511,7 +477,6 @@ export const bakedRolls: IDish[] = [
         id: '',
         name: 'Невада',
         compound: 'Творожный сыр, курочка, Шампиньоны, сырная шапочка, соус 1000 островов',
-        price_for_mid: 0,
         price_for_large: 270,
         img: 'vNmuh-Z8zb4.jpg'
     },
@@ -519,7 +484,6 @@ export const bakedRolls: IDish[] = [
         id: '',
         name: 'Ямайка',
         compound: 'Творожный сыр, курочка, ананас, кунжут, сырная шапочка',
-        price_for_mid: 0,
         price_for_large: 310,
         img: 'MuxKT2emlBM.jpg'
     },
@@ -527,7 +491,6 @@ export const bakedRolls: IDish[] = [
         id: '',
         name: 'Шик',
         compound: 'Творожный сыр, курочка, омлет Томаго, помидор, сырная шапочка, чесночный соус',
-        price_for_mid: 0,
         price_for_large: 310,
         img: 'S9f5vX6VzTg.jpg'
     },
@@ -535,7 +498,6 @@ export const bakedRolls: IDish[] = [
         id: '',
         name: 'Фьюжн',
         compound: 'Творожный сыр, угорь, курочка, лук фри, соус 1000 островов',
-        price_for_mid: 0,
         price_for_large: 310,
         img: 'oICJfloS814.jpg'
     },
@@ -543,7 +505,6 @@ export const bakedRolls: IDish[] = [
         id: '',
         name: 'Тояма',
         compound: 'Творожный сыр, угорь, лист салата, икра Тобико, сырная шапочка, соус Унаги',
-        price_for_mid: 0,
         price_for_large: 320,
         img: 'FhC6DyiSIYQ.jpg'
     },
@@ -551,7 +512,6 @@ export const bakedRolls: IDish[] = [
         id: '',
         name: 'Фиеста',
         compound: 'Творожный сыр, креветка, свежий огурчик, икра Тобико, шапочка с мидиями',
-        price_for_mid: 0,
         price_for_large: 330,
         img: 'NLZaDDjWud4.jpg'
     },
@@ -559,7 +519,6 @@ export const bakedRolls: IDish[] = [
         id: '',
         name: 'Филадельфия Хот',
         compound: 'Творожный сыр, лосось с/с, соус Унаги, зелёный лук',
-        price_for_mid: 0,
         price_for_large: 350,
         img: 'Hdttk9G975c.jpg'
     },
@@ -567,7 +526,6 @@ export const bakedRolls: IDish[] = [
         id: '',
         name: 'Криспи',
         compound: 'Творожный сыр, креветка, лист салата, икра Тобико, шапочка с ветчиной',
-        price_for_mid: 0,
         price_for_large: 330,
         img: 'THygZr51pKc.jpg'
     },
@@ -575,7 +533,6 @@ export const bakedRolls: IDish[] = [
         id: '',
         name: 'Запеченные ролл с лососем и тунцом',
         compound: 'сливочный сыр, огурец, шапочка лосось/тунец, спайси соус, лук зелёный',
-        price_for_mid: 0,
         price_for_large: 340,
         img: 'Y7xnIt4xR4k.jpg'
     },
@@ -586,7 +543,6 @@ export const tortillas: IDish[] = [
         id: '',
         name: 'Холодная тортилья с курочкой',
         compound: 'мексиканская лепешка, творожный сыр, курочка, маринованный огурчик, помидор',
-        price_for_mid: 0,
         price_for_large: 270,
         img: 'ZD7sjWLlT0w.jpg'
     },
@@ -594,7 +550,6 @@ export const tortillas: IDish[] = [
         id: '',
         name: 'Холодная тортилья с лососем',
         compound: 'мексиканская лепешка, творожный сыр, лосось копченый, Пекинская капуста, помидор',
-        price_for_mid: 0,
         price_for_large: 290,
         img: 'iAwDetWX218.jpg'
     },
@@ -602,7 +557,6 @@ export const tortillas: IDish[] = [
         id: '',
         name: 'Горячая тортилья с беконом',
         compound: 'Мексиканская лепешка, творожный сыр, свежий огурчик, помидор, бекон, зелёный лук, Пекинская капуста',
-        price_for_mid: 0,
         price_for_large: 290,
         img: 'VEOkW2g-M0M.jpg'
     },
@@ -610,7 +564,6 @@ export const tortillas: IDish[] = [
         id: '',
         name: 'Горячая тортилья с курочкой',
         compound: 'Мексиканская лепешка, творожный сыр, курочка, помидор, свежий огурчик, Пекинская капуста',
-        price_for_mid: 0,
         price_for_large: 290,
         img: 'kbdbEwlpvlg.jpg'
     },
@@ -618,7 +571,6 @@ export const tortillas: IDish[] = [
         id: '',
         name: 'Горячая тортилья с креветкой',
         compound: 'Мексиканская лепешка, творожный сыр, помидор, свежий огурчик, креветка, Пекинская капуста',
-        price_for_mid: 0,
         price_for_large: 300,
         img: 'wvffosF9ibM.jpg'
     },
@@ -626,7 +578,6 @@ export const tortillas: IDish[] = [
         id: '',
         name: 'Запечённая тортилья с беконом и ветчиной',
         compound: 'Мексиканская лепешка, творожный сыр, бекон, ветчина, свежий огурчик, помидор, Пекинская капуста, сырная шапочка, чесночный соус',
-        price_for_mid: 0,
         price_for_large: 320,
         img: '-QK-ozSIAUo.jpg'
     },
@@ -743,7 +694,7 @@ export const pizzas: IDish[] = [
         id: '',
         name: 'Римская пицца с лососем',
         compound: 'соус маджорио, соус томатный, руккола, сливочный сыр, масага красная, лосось, пряное оливковое масло',
-        price_for_mid: 0,
+
         price_for_large: 399,
         img: '26px4b4A6dw.jpg'
     },
