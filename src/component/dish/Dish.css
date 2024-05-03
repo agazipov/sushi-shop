@@ -24,3 +24,25 @@
         height: auto;
     }
 }
+
+.dish__size:hover {
+    cursor: pointer;
+}
+
+.dish__size_activ {
+    text-decoration-line: underline;
+    font-weight: bold;
+
+    color: red;
+}
+
+.dish__count {
+    width: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}

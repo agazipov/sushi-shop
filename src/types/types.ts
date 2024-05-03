@@ -4,6 +4,8 @@ export interface IDish {
     compound?: string,
     price_for_mid?: number,
     price_for_large?: number,
+    count?: number,
+    select?: 'mid' | 'large',
     img: string,
 }
 
@@ -13,4 +15,10 @@ export interface ISet {
     price: number,
     img: string,
     dishes: string[],
+}
+
+export interface ICart {
+    price: number,
+    countDishes: number,
+    buy: IDish[],
 }

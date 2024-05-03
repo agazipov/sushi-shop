@@ -1,3 +1,5 @@
+import Cart from "../cart/Cart";
+
 import "./Header.css";
 
 export default function Header() {
@@ -17,6 +19,7 @@ export default function Header() {
                         <a href="mock">+7 (908) 939-22-12</a>
                         <a href="mock">+7 (912) 772-89-48</a>
                     </div>
+                    <Cart />
                 </div>
             </div>
         </header>
