@@ -4,8 +4,9 @@ export interface IDish {
     compound?: string,
     price_for_mid?: number,
     price_for_large?: number,
-    count?: number,
-    select?: 'mid' | 'large',
+    countByMid?: number,
+    countByLarge?: number,
+    select?: string,
     img: string,
 }
 

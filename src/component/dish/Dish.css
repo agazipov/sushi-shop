@@ -25,8 +25,12 @@
     }
 }
 
-.dish__size:hover {
-    cursor: pointer;
+.dish__size {
+    display:  flex;
+    
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .dish__size_activ {
@@ -42,7 +46,4 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
 }

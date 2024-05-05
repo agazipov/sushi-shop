@@ -1,5 +1,5 @@
 import DishesList from "../../component/dishesList/DishesList";
-import { bakedRolls } from "../../data/menu";
+import bakedRolls from "../../data/menu/bakedRolls.json";
 
 export default function BakedRolls() {
     return (

@@ -1,50 +1,74 @@
 [
     {
-        "id": "59bbe15b-4f10-430a-ad2a-365f3f33d41d",
+        "id": "57765e2b-10d8-473a-9574-5a572ec130de",
         "name": "Молочный коктейль 300мл",
         "price_for_mid": 120,
-        "img": "yj2qmGLr6t8.jpg"
+        "img": "yj2qmGLr6t8.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "267ac9f1-bd71-4264-9afa-ab871aaaae1c",
+        "id": "b95e5e30-1607-41c2-baec-9321498f4ad9",
         "name": "Сок детский 200мл",
         "price_for_mid": 40,
-        "img": "yj2qmGLr6t8.jpg"
+        "img": "yj2qmGLr6t8.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "41cbd79b-290e-4975-9269-9a41516b667d",
+        "id": "72bf24b3-d116-4ea3-abb4-a802015d9910",
         "name": "Coca-cola classic 0,5",
         "price_for_mid": 85,
-        "img": "Vkpf8mSRyNY.jpg"
+        "img": "Vkpf8mSRyNY.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "41f36206-4049-4de5-877a-4dc77f4907a7",
+        "id": "ad43c31f-e337-4d7f-86b0-c1640e7c5abd",
         "name": "Coca-cola zero 1",
         "price_for_mid": 120,
-        "img": "Vkpf8mSRyNY.jpg"
+        "img": "Vkpf8mSRyNY.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "37e257d4-56c4-45c9-8487-3e5e5d0c0d26",
+        "id": "895d3af0-77c3-44b7-ac64-d502a6b8cedf",
         "name": "Coca-cola classic 1,5",
         "price_for_mid": 150,
-        "img": "Vkpf8mSRyNY.jpg"
+        "img": "Vkpf8mSRyNY.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "6df90944-91a2-494e-97b2-28d9ddb2e04c",
+        "id": "db957224-39e9-4b6a-9304-873cf01b0809",
         "name": "Эспрессо 60мл",
         "price_for_mid": 80,
-        "img": "aqTC7uD-0Kk.jpg"
+        "img": "aqTC7uD-0Kk.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "23c52413-9e5b-4c98-abad-61abaa8d60f1",
+        "id": "2bcb800c-2693-4804-9a41-8c2f87a7da19",
         "name": "Капучино 200мл",
         "price_for_mid": 150,
-        "img": "aqTC7uD-0Kk.jpg"
+        "img": "aqTC7uD-0Kk.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "b8d3d66e-0e57-4e50-9de9-fcb20d3cfa35",
+        "id": "7365aecf-685b-4f3c-9ecf-db357cf8ab03",
         "name": "Латте 200мл",
         "price_for_mid": 180,
-        "img": "aqTC7uD-0Kk.jpg"
+        "img": "aqTC7uD-0Kk.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     }
 ]

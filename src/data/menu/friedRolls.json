@@ -1,107 +1,152 @@
 [
     {
-        "id": "28642bf9-aad2-48c8-b30b-9783d93f7f7a",
+        "id": "b4709961-f841-4e5b-8451-364fe13e65b3",
         "name": "Эби темпура",
         "compound": "Творожный сыр, креветка, водоросли Чука, соус Ореховый",
         "price_for_large": 310,
-        "img": "s3d-LvHMEYE.jpg"
+        "img": "s3d-LvHMEYE.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "aa7f6836-1fb7-428f-ba73-d92609f3d333",
+        "id": "faa25839-f565-44db-b1e0-85e25cad52ec",
         "name": "Блэк",
         "compound": "Творожный сыр, креветка, угорь, икра Тобико, икорная шапочка",
         "price_for_large": 300,
-        "img": "X6cjkdwfKEI.jpg"
+        "img": "X6cjkdwfKEI.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "426cb390-2719-4959-9408-70f99ef38e5b",
+        "id": "2490afb3-45d8-4cca-8e25-de39076e1ec0",
         "name": "Унаги темпура",
         "compound": "Творожный сыр, угорь, омлет Томаго, соус Унаги",
         "price_for_large": 320,
-        "img": "NtxqldkN5Pw.jpg"
+        "img": "NtxqldkN5Pw.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "fcbb62d5-e251-48f9-83b0-61bbfa9307de",
+        "id": "620e663f-d956-4ce7-bc3a-145ed65970c5",
         "name": "Сяке темпура",
         "compound": "Творожный сыр, лосось с/с, свежий огурчик, зелёный лук, икорная шапочка",
         "price_for_large": 320,
-        "img": "cc67Ui3fvEo.jpg"
+        "img": "cc67Ui3fvEo.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "dcfafabe-5ef4-491f-ae37-82b679b3f754",
+        "id": "00de8abb-1e3e-44e0-90bf-dac516a91eeb",
         "name": "Унаги-сяке темпура",
         "compound": "Творожный сыр, лосось с/с, угорь, свежий огурчик, икорная шапочка, соус Унаги",
         "price_for_large": 350,
-        "img": "LV9P9O8ZchM.jpg"
+        "img": "LV9P9O8ZchM.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "7179db65-21db-440b-bd84-ff96f56d5966",
+        "id": "d42c90c8-dba6-4b4d-a534-b3aede613245",
         "name": "Куш",
         "compound": "Творожный сыр, курочка, омлет Томаго, шапочка Куш",
         "price_for_large": 300,
-        "img": "2N-0QIN5EGI.jpg"
+        "img": "2N-0QIN5EGI.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "00b40b3f-e8f7-47a3-a1be-ef740ce4e70d",
+        "id": "b4ae2ca5-ee08-4102-a8e3-105c6f2fd125",
         "name": "Оригами",
         "compound": "Творожный сыр, курочка, бекон, лук фри, соус Барбекю",
         "price_for_large": 290,
-        "img": "ebj9hKHw7Fs.jpg"
+        "img": "ebj9hKHw7Fs.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "f471c1bc-6cf0-43e1-a032-fd1b75eeb088",
+        "id": "7b3cb7bf-1a2a-400a-8b22-e30cc6152a10",
         "name": "Тори темпура",
         "compound": "Творожный сыр, курочка, свежий огурчик, соус Спайси",
         "price_for_large": 290,
-        "img": "tfpEjPr-Lyg.jpg"
+        "img": "tfpEjPr-Lyg.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "a550a98c-a324-4a77-be4f-494a28891dd4",
+        "id": "29645ed2-a379-4629-8e51-2fd96164f82d",
         "name": "Кани темпура",
         "compound": "Творожный сыр, мясо краба, икра Тобико",
         "price_for_large": 290,
-        "img": "R4xE88Ot_dY.jpg"
+        "img": "R4xE88Ot_dY.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "ba8f57e1-9158-4486-ab37-5ead32dd6ec2",
+        "id": "4d543b28-5ed2-47b1-9fc7-eec8435830f8",
         "name": "Цезарь Хот",
         "compound": "Курочка, помидор, лист салата, лук фри, соус Чесночный",
         "price_for_large": 280,
-        "img": "FcjVnfKp4I8.jpg"
+        "img": "FcjVnfKp4I8.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "a0ddafe2-a4c5-48c0-b660-fe4f6ce39a95",
+        "id": "2b448e17-fc97-4454-8175-828613115f5d",
         "name": "Америка",
         "compound": "Творожный сыр, креветка, икра Тобико, шапочка Фиеста с мидиями",
         "price_for_large": 300,
-        "img": "7XvSaydlH68.jpg"
+        "img": "7XvSaydlH68.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "3295553a-438c-4ea8-b4eb-172774db814a",
+        "id": "9948b37b-6be9-4d66-b5ae-5b8392e13cf0",
         "name": "Текка темпура",
         "compound": "Творожный сыр, тунец, свежий огурчик, икорная шапочка",
         "price_for_large": 300,
-        "img": "-qV_yPe8BRg.jpg"
+        "img": "-qV_yPe8BRg.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "f70df215-8036-4122-889b-13c1eb0022c5",
+        "id": "6669ce4d-15b5-44a5-babd-50e0ba5c5ca1",
         "name": "Вегас",
         "compound": "Творожный сыр, грибы Шиитаке, зеленый лук, соус Терияке",
         "price_for_large": 260,
-        "img": "8nzptjg1Gxo.jpg"
+        "img": "8nzptjg1Gxo.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "98762c35-78b8-4f92-b6f0-43968bf0d843",
+        "id": "bc95e5bc-d505-4f4e-8966-eed689d2a9dc",
         "name": "Чикен темпура",
         "compound": "сливочный сыр, курица, помидор, пармезан",
         "price_for_large": 300,
-        "img": "bbcJX-l7JHs.jpg"
+        "img": "bbcJX-l7JHs.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "7e96291d-385e-4f45-acd9-4ed4fa39f25d",
+        "id": "081199f8-cb22-4881-b4fe-d50ba421052d",
         "name": "Токио",
         "compound": "сливочный сыр, лосось, огурец, сырная шапочка, соус унаги, лук жаренный",
         "price_for_large": 310,
-        "img": "XNUULdN_1HY.jpg"
+        "img": "XNUULdN_1HY.jpg",
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     }
 ]

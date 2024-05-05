@@ -1,390 +1,480 @@
 [
     {
-        "id": "e09db443-8d98-4c49-9102-740e6e416026",
+        "id": "ff004808-3010-43ac-bbe7-3ee1279c3ad6",
         "name": "Сяке маки",
         "compound": "Лосось с/с, икорная шапочка",
         "price_for_large": 160,
         "img": "LQzku-niAqM.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "bb513e94-ca2a-4f9d-a190-cd7527bebfbe",
+        "id": "55072592-3b33-4493-a25d-6b3a1a86fb18",
         "name": "Текка маки",
         "compound": "Тунец, свежий огурчик, икорная шапочка",
         "price_for_large": 180,
         "img": "yPiciDJCL9Y.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "bb6420d9-beb0-41cf-9660-6a0f0b230fae",
+        "id": "c938dcbe-07b5-4ed1-aded-f930b6c37612",
         "name": "Крабик",
         "compound": "Творожный сыр, мясо краба, икорная шапочка",
         "price_for_large": 170,
         "img": "QO-14tGUxCU.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "3cee90fa-22a4-47cb-96ae-c538f235e6cd",
+        "id": "ea69d78e-d91b-4ef2-9c45-3fda8654a051",
         "name": "Лава",
         "compound": "рис, лосось, огурчик, Ким чи",
         "price_for_large": 190,
         "img": "pJy-cW9WoaI.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "f5e4a4ca-3773-4f4c-bba5-d6521844403f",
+        "id": "0c3c8471-f009-4b73-9ec9-713bd698b654",
         "name": "Гейша маки",
         "compound": "Творожный сыр, копченый лосось, зелёный лук",
         "price_for_large": 200,
         "img": "DlUW1JrOOXc.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "f780e7cd-d026-473e-938b-54cbbd7680e2",
+        "id": "6d569cec-4932-4cff-8398-3a5be36ea156",
         "name": "Икура маки",
         "compound": "Творожный сыр, икра лососевая)",
         "price_for_large": 230,
         "img": "30I_IXf8YmA.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "98237ba3-7c61-431c-9bc1-c80c79136df6",
+        "id": "d2dfb1ac-7bc7-4691-9eb8-8143e7262934",
         "name": "Унаги маки",
         "compound": "Угорь, свежий огурчик, соус Унаги, кунжут",
         "price_for_large": 210,
         "img": "TpdPj7SUBoo.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "3274b4e2-2132-48ef-a96c-677df8e68f3a",
+        "id": "a2db2732-4796-4e7f-bacb-926c30988a4c",
         "name": "Тори маки",
         "compound": "сливочный сыр, курочка, икорная шапочка",
         "price_for_large": 200,
         "img": "zjuji5uNt7E.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "1e9242fc-553d-41c1-a1c5-e4e28319bde4",
+        "id": "8e6a0589-d193-4e77-981c-191edf47c2a2",
         "name": "Эби маки",
         "compound": "Творожный сыр, икра Тобико, креветка",
         "price_for_large": 210,
         "img": "BbEl5HpDkmc.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "82660edd-b2fd-4832-99f1-c2e19a0bea90",
+        "id": "bfde6f88-10b8-45e4-be1e-3e3ccabec8b6",
         "name": "Бекон маки",
         "compound": "Рис, сливочный сыр, зеленый лук, бекон",
         "price_for_large": 200,
         "img": "R6qZmV1FXDg.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "efff3045-ca32-4954-bb6d-f73d220cbd8b",
+        "id": "5af426f9-1559-48fc-9be2-99705d4e6065",
         "name": "Каппа маки",
         "compound": "свежий огурчик, творожный сыр",
         "price_for_large": 100,
         "img": "9PWsZnQ9-9E.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "16f60c6d-198b-4dc0-9b23-06d2b30ee68a",
+        "id": "ca2c08de-31e5-44d2-8884-752c211495c6",
         "name": "Фитнес",
         "compound": "Свежий огурчик, болгарский перец, помидор, лист салата, соус Ореховый",
         "price_for_large": 180,
         "img": "3hMJtZz_Ol8.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "f50bfbc3-3eb1-4bce-8f17-09efce19d2d3",
+        "id": "b2c1a0a1-4e15-4bf8-935a-608fb6839cbb",
         "name": "Чука маки",
         "compound": "Водоросли Чука, соус Ореховый",
         "price_for_large": 120,
         "img": "7Hp_WlNM_9Q.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "c398907c-1ca9-47e7-9267-577dc727dbfc",
+        "id": "7bbe0e29-d73f-42ed-84f1-2f63aaaefe87",
         "name": "Шиитаке маки",
         "compound": "рис, грибы шиитаке, омлет Томаго",
         "price_for_large": 140,
         "img": "tAOFOdfEsx4.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "f95d55ff-4294-4c4b-839e-dbee042f7ea3",
+        "id": "2d76d574-c662-4ba7-9ba2-34b46d7979b8",
         "name": "Сакана",
         "compound": "Творожный сыр, тунец, свежий огурчик, кунжут",
         "price_for_mid": 190,
         "price_for_large": 330,
         "img": "xFF9PSHhnh8.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "cdd81b79-8fea-4835-b513-7b2e63f6fbe0",
+        "id": "cf29f63f-b60f-4dc5-8e92-9b47d179f3aa",
         "name": "Ига маки",
         "compound": "Рис, вареные мидии, лист салата, кунжут",
         "price_for_large": 180,
         "img": "TOIGkcieCr8.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "bfa5859a-a2c7-4641-b072-209a8f17e91b",
+        "id": "08b9cf70-d430-4d4d-a8ca-add6bd584932",
         "name": "Филадельфия Классик",
         "compound": "Много творожного сыра, лосось с/с",
         "price_for_mid": 190,
         "price_for_large": 330,
         "img": "8SY3xsBqn_E.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "63937cd0-7947-4e43-85aa-7e3dd97042b4",
+        "id": "b61c5d0b-32c5-42da-90ae-5a7fd48a1a0f",
         "name": "Филадельфия ДеЛюкс",
         "compound": "Творожный сыр, лосось с/с, угорь, креветка, икорная шапочка",
         "price_for_mid": 210,
         "price_for_large": 350,
         "img": "IvxOurRt3H0.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "86c0671f-6af2-41b8-9a01-131d79dce69e",
+        "id": "2dec415c-ef38-44b3-bc98-d70df8d570ea",
         "name": "Москва",
         "compound": "Творожный сыр, лосось с/с, свежий огурчик, икра лососевая",
         "price_for_mid": 210,
         "price_for_large": 350,
         "img": "4bt707Tx43c.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "85801615-617c-436a-8c8a-f49db219dc7d",
+        "id": "7b9e769e-6dd5-493c-a39e-c4af8162d418",
         "name": "Филадельфия Лайм",
         "compound": "Творожный сыр, лосось с/с, свежий огурчик, лайм(или лимон), острый соус Ким Чи",
         "price_for_mid": 200,
         "price_for_large": 340,
         "img": "edLXVuAkp3g.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "c65f1d03-3e7c-4ffe-9f6d-b663ac1f1a84",
+        "id": "f88c55d2-65e8-4616-a505-3c4905bfddc7",
         "name": "Дракон",
         "compound": "Творожный сыр, свежий огурчик, угорь, соус Унаги, кунжут",
         "price_for_mid": 190,
         "price_for_large": 330,
         "img": "xUaJ3SYtvy4.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "0f70d5b9-2d15-48d2-9d30-fb2478adb93d",
+        "id": "10a10a1a-1144-4854-a719-723304012068",
         "name": "Канада",
         "compound": "Творожный сыр, свежий огурчик, лосось с/с, угорь, соус Унаги, кунжут",
         "price_for_mid": 210,
         "price_for_large": 350,
         "img": "mngJsvDMJU0.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "0eecb2e6-7de5-4610-afdf-9394221b4220",
+        "id": "bbd32efe-9b0e-4cc9-96b7-3071d9767aa2",
         "name": "Бутта ролл",
         "compound": "Творожный сыр, помидор, лист салата, зелёный лук, бекон, кунжут",
         "price_for_mid": 180,
         "price_for_large": 300,
         "img": "8BCQdMclXtQ.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "7fb8303e-e396-4362-b77d-a7b30437d7c3",
+        "id": "8b5f898a-e1bf-413c-a602-9edaba2141e4",
         "name": "Мясной",
         "compound": "Творожный сыр, курочка, омлет Томаго, бекон, соус Барбекю",
         "price_for_mid": 190,
         "price_for_large": 330,
         "img": "UJey7POWtv4.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "bab86fdc-9819-4689-bee1-b1841a46857d",
+        "id": "82fd5edc-d68d-4e47-8cf2-707dd1d8b7b4",
         "name": "Либерти",
         "compound": "сливочный сыр,маменори, креветка, салат, икорная шапочка, ореховый соус",
         "price_for_large": 320,
         "img": "JlBaX_0iK4U.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "05df4493-8709-4056-b0dc-550845be33a2",
+        "id": "810677ae-e949-4697-bf78-fd1d529ef7ea",
         "name": "Ига ролл",
         "compound": "Маменори, творожный сыр, мидии, свежий огурчик, икорная шапочка",
         "price_for_large": 320,
         "img": "ykdyPV3PzuE.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "a330c407-1930-46b9-ba10-a6aa175b9d11",
+        "id": "ccb930d2-0e8c-4e8b-93da-80f6b5048fa5",
         "name": "Амстердам",
         "compound": "Сливочный сыр, курочка, свежий огурчик, икра тобико, шапочка Амстердам с ветчиной",
         "price_for_mid": 190,
         "price_for_large": 320,
         "img": "w00aBwiXgUc.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "143cf7bd-3061-4970-94ad-9ec061006070",
+        "id": "beb4d3bb-bf57-40b6-9754-faa41f37adc7",
         "name": "Калифорния",
         "compound": "Творожный сыр, лосось с/с, свежий огурчик, икра Тобико",
         "price_for_mid": 190,
         "price_for_large": 310,
         "img": "UxOISO1_HKY.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "dd9705f8-44ae-4250-a3c4-d71584ce7984",
+        "id": "41b9a670-4110-4255-8984-d58df2995f4b",
         "name": "Калифорния Эби",
         "compound": "Творожный сыр, креветка, свежий огурчик, икра Тобико",
         "price_for_mid": 190,
         "price_for_large": 310,
         "img": "AZLAXbQjyn0.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "73b5889b-7c77-4f59-9871-17c180ecc8fe",
+        "id": "64ef6477-d7fd-46a5-9313-e731158577d1",
         "name": "Кани",
         "compound": "Творожный сыр, мясо краба, огурчик, икра Тобико",
         "price_for_mid": 170,
         "price_for_large": 290,
         "img": "OJoSj_ajZX0.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "02b32842-2895-4094-8a76-4e52b6f507bc",
+        "id": "557a0de1-af1b-4fda-af07-04a7694e8f0b",
         "name": "Кабиа",
         "compound": "Творожный сыр, угорь, свежий огурчик, икра Тобико",
         "price_for_mid": 190,
         "price_for_large": 300,
         "img": "os5tOogRaIs.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "51d54e56-a6cb-488e-b95f-3db278bda9b3",
+        "id": "09955468-a587-4410-b87a-b7ea6fb7c674",
         "name": "Бостон",
         "compound": "обжаренный лосось, сливочный сыр, лист салата, икра тобико",
         "price_for_mid": 190,
         "price_for_large": 300,
         "img": "Jb1gYPGWov4.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "9f8e283f-c7a3-4d7f-a717-82b50c74429f",
+        "id": "e29849d5-8fae-44b6-a19f-f0aa2d5936c1",
         "name": "Катана",
         "compound": "Креветка в кляре, свежий огурчик, икра Тобико, соус Спайси",
         "price_for_mid": 190,
         "price_for_large": 300,
         "img": "KsHnfsO1rkA.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "98ba34ee-c222-4746-bab5-1f8c353688dd",
+        "id": "f0b6f1b6-dcd4-47f4-94f7-a7f5d29efbc1",
         "name": "Чиз",
         "compound": "Творожный сыр, курочка, свежий огурчик, сыр Hochland, соус Барбекю",
         "price_for_mid": 190,
         "price_for_large": 300,
         "img": "9loXvjna0EA.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "baab841b-d47d-4e17-8077-8289d1d9e5b4",
+        "id": "2f6515d6-75c6-4bd9-80d1-c0eb45bb2ef9",
         "name": "Кабуки",
         "compound": "сливочный сыр, копченый лосось, свежий огурчик, сыр Hochland",
         "price_for_mid": 190,
         "price_for_large": 310,
         "img": "xilSkszd0PE.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "d25d7141-5cb7-4654-850c-c9d88390330a",
+        "id": "14e3be47-4a11-4886-8483-771b58b4393b",
         "name": "Королевский",
         "compound": "Творожный сыр, тунец, свежий огурчик, икорная шапочка, икра лососевая",
         "price_for_mid": 190,
         "price_for_large": 320,
         "img": "v2LJGv42S-Y.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "c3b561bb-0965-4e42-a8f5-5edb54e69ac9",
+        "id": "c1c32045-8fec-4b91-9eb9-d6e3a41f20c9",
         "name": "Аляска",
         "compound": "Творожный сыр, копченый лосось, свежий огурчик, кунжут, икорная шапочка",
         "price_for_mid": 190,
         "price_for_large": 310,
         "img": "IlAr9WVfedw.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "a5c4c33a-1f40-483e-b243-29c7216f2892",
+        "id": "7aae44c9-c99b-4109-bc02-644c9d061b52",
         "name": "Греческий",
         "compound": "Творожный сыр, помидор, болгарский перец, свежий огурчик, лист салата, кунжут, сыр Брынза",
         "price_for_mid": 160,
         "price_for_large": 220,
         "img": "ctfDbEqpsT8.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "4f2ee830-4901-4f8e-b06f-35f8799ef1a5",
+        "id": "850060ea-50fe-4387-add1-de0cc25548b7",
         "name": "Цезарь",
         "compound": "курочка, сливочный сыр, помидор, лист салата, кунжут, соус Чесночный",
         "price_for_mid": 170,
         "price_for_large": 280,
         "img": "iDZgMH4PA1I.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "678fec71-591a-459d-b9cc-deb13e0a4a14",
+        "id": "230e3eb5-4e3a-4972-8ad1-53ce26191e83",
         "name": "Бонито",
         "compound": "Творожный сыр, лосось обжаренный в соусе Терияке, стружка тунца",
         "price_for_mid": 190,
         "price_for_large": 310,
         "img": "HVogVPEf5Oo.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "2e789c72-f964-44ac-ad1d-bee7d21c70fa",
+        "id": "aaf73228-8b72-49cf-a3cb-fe3fa433023d",
         "name": "Киото",
         "compound": "Творожный сыр, курочка, омлет Томаго, лук фри, соус Спайси",
         "price_for_mid": 190,
         "price_for_large": 300,
         "img": "gw2ePk43d5s.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "c3c6b67c-2652-40d7-8c7f-ebcf59b8e7f0",
+        "id": "bb130f04-e7b3-4df7-98e5-cf287e54c318",
         "name": "Нагано",
         "compound": "сливочный сыр, угорь, свежий огурчик, стружка тунца, соус Унаги",
         "price_for_mid": 190,
         "price_for_large": 310,
         "img": "z9eRg8oCvqE.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "1c23f2b8-778b-4429-8836-cf45f1f5b0fa",
+        "id": "09170390-df4a-4dc8-b7d6-3ae09f4ebc45",
         "name": "Чукос",
         "compound": "сливочный сыр, курица, омлет томаго, кунжут ч/б, чука, соус спайси",
         "price_for_mid": 160,
         "price_for_large": 280,
         "img": "EzafE0fXBes.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "eb672135-fd3f-4aaa-a148-c4e233bbeb7c",
+        "id": "72b97980-d9f3-4fb5-8c1d-b055d324da26",
         "name": "Чеддер маки",
         "compound": "сливочный сыр, курица в/к, огурец, соус сырный, воздушный рис",
         "price_for_mid": 170,
         "price_for_large": 280,
         "img": "8YjsHX1uCcQ.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     },
     {
-        "id": "5f00ff87-dcb2-4109-8731-d567df8dc600",
+        "id": "0530da69-24ee-4167-b827-fbc1e360926e",
         "name": "Харли",
         "compound": "сливочный сыр, лосось, огурец, воздушный рис",
         "price_for_mid": 200,
         "price_for_large": 400,
         "img": "OGSNP7dOCeE.jpg",
-        "count": 0
+        "countByMid": 0,
+        "countByLarge": 0,
+        "select": "large"
     }
 ]
