@@ -1,0 +1,5 @@
+.modal__ol {
+    & li{
+        margin-bottom: 8px;
+    }
+}

@@ -3,6 +3,10 @@ import Modal from 'react-bootstrap/Modal';
 import { useSelector } from 'react-redux';
 import { selectCart } from '../../redux/features/cart/cart';
 import { RootState } from '../../redux';
+import { Dish } from '../dish/Dish';
+import { useNavigate } from "react-router-dom";
+
+import './ModalCart.css';
 
 interface IModalCart {
     show: boolean,
@@ -11,30 +15,40 @@ interface IModalCart {
 
 export default function ModalCart({ show, setShow }: IModalCart) {
     const cart = useSelector((state: RootState) => selectCart(state));
+    const navigate = useNavigate();
 
-    const handleClose = () => setShow(false);
+    const handleCheckOut = () => {
+        setShow(false);
+        cart.buy.length !== 0 && navigate('/order');
+    };
 
     return (
-        <Modal show={show} onHide={handleClose}>
+        <Modal show={show} onHide={() => setShow(false)}>
             <Modal.Header closeButton>
-                <Modal.Title>Корзина {cart.countDishes} блюд за {cart.price}₽</Modal.Title>
+                <Modal.Title>Корзина: {cart.countDishes} блюд за {cart.price}₽</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <ol>
-                {cart.buy.map((dish) => {
-                    return (
-                        <li key={dish.id}>
-                            <div>{dish.name}</div>
-                            {dish.countByMid !== 0 && <div>Маленкая порция: {dish.countByMid}</div>}
-                            {dish.countByLarge !== 0 && <div>Большая порция: {dish.countByLarge}</div>}
-                        </li>
-                    )
-                })}
-                </ol>
+                {cart.buy.length === 0 
+                    ?
+                    <div>Корзина пуста</div>
+                    :
+                    <ol className='modal__ol'>
+                        {cart.buy.map((dish) => {
+                            return (
+                                <li key={dish.id}>
+                                    <Dish dish={dish} viewVariant='custom' />
+                                </li>
+                            )
+                        })}
+                    </ol>
+                }
             </Modal.Body>
             <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose}>
-                    Close
+                <Button variant="dark" onClick={handleCheckOut} disabled={cart.buy.length === 0}>
+                    Оформить заказ
+                </Button>
+                <Button variant="secondary" onClick={() => setShow(false)}>
+                    Закрыть
                 </Button>
             </Modal.Footer>
         </Modal>

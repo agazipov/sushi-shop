@@ -16,7 +16,8 @@ export default function Navigation() {
                     to={PAGINATION[0].path}
                 >ГЛАВНАЯ</Navbar.Brand>
                 <Nav className="me-auto">
-                    {PAGINATION[0].children.map((page, index) => {
+                    {PAGINATION[0].children?.map((page, index) => {
+                        if (!page.path) return;
                         return (
                             <React.Fragment key={index}>
                                 <Nav.Link

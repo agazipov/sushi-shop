@@ -9,10 +9,11 @@ import { useState } from "react";
 import "./Dish.css";
 
 interface IDishComponent {
-    dish: IDish
+    dish: IDish,
+    viewVariant?: 'default' | 'custom'
 }
 
-export function Dish({ dish }: IDishComponent) {
+export function Dish({ dish, viewVariant = 'default' }: IDishComponent) {
     const [selectDish, setSelectDish] = useState<IDish>(() => { return { ...dish, select: 'large' } });
 
     const handleSize = (value: 'mid' | 'large') => {
@@ -25,16 +26,13 @@ export function Dish({ dish }: IDishComponent) {
         return selectDishAmount(state, dish);
     });   
 
-    const addToCart = () => dispath(cartActions.addCart(selectDish));
-    const delToCart = () => dispath(cartActions.delCart(selectDish));
-
     return (
-        <div className="dish">
+        <div className={`dish ${viewVariant}`}>
             <div className="dish__wrapper">
                 <div className="dish__img">
                     <img
-                        height={1000}
-                        width={1000}
+                        height={100}
+                        width={100}
                         src={`${process.env.PUBLIC_URL}/img_dishes/${dish.img}`}
                         alt={dish.name}
                     />
@@ -47,8 +45,8 @@ export function Dish({ dish }: IDishComponent) {
                         className={`dish__size ${selectDish.select === 'mid' ? 'dish__size_activ' : ''}`}
                         onClick={() => handleSize('mid')}
                     >
-                        <span>Цена за 4 кусочка: {dish.price_for_mid}₽</span>
-                        <div className="dish__count">{count ? count.countByMid : 0}</div>
+                        <div>{dish.price_for_mid}₽ за 4 ролла: </div>
+                        <div className='dish__count'>{count ? count.countByMid : 0}</div>
                     </div>
                 }
                 {dish.price_for_large &&
@@ -56,15 +54,15 @@ export function Dish({ dish }: IDishComponent) {
                         className={`dish__size ${selectDish.select === 'large' ? 'dish__size_activ' : ''}`}
                         onClick={() => handleSize('large')}
                     >
-                        <span>Цена за 8 кусочков: {dish.price_for_large}₽</span>
-                        <div className="dish__count">{count ? count.countByLarge : 0}</div>
+                        <div>{dish.price_for_large}₽ за 8 роллов: </div>
+                        <div className='dish__count'>{count ? count.countByLarge : 0}</div>
                     </div>
                 }
             </div>
             <ButtonGroup>
-                <Button variant="dark" onClick={addToCart}>+</Button>
+                <Button variant="dark" onClick={() => dispath(cartActions.addCart(selectDish))}>+</Button>
                 <Button
-                    variant="dark" onClick={delToCart}
+                    variant="dark" onClick={() => dispath(cartActions.delCart(selectDish))}
                     disabled={
                         (selectDish.select === 'mid' && (count ? count.countByMid! === 0 : true)) 
                         || 

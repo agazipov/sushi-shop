@@ -1,0 +1,13 @@
+.order {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.order__not {
+    height: 20vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

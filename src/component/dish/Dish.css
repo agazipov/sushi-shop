@@ -4,11 +4,26 @@
     border: 1px solid black;
     border-radius: 10px;
 
+}
+
+.default {
     display: flex;
     flex-direction: column;
     gap: 4px;
     align-items: center;
     justify-content: space-between;
+}
+
+.custom {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: space-between;
+
+    & .dish__wrapper {
+        width: 100px;
+    }
 }
 
 .dish__wrapper {
@@ -27,9 +42,16 @@
 
 .dish__size {
     display:  flex;
+    justify-content: space-between;
+
+    border: 1px solid var(--bs-gray);
+    border-radius: var(--bs-border-radius);
+
+    padding: 4px;
     
     &:hover {
         cursor: pointer;
+        background-color: var(--bs-gray-200);
     }
 }
 
@@ -37,7 +59,8 @@
     text-decoration-line: underline;
     font-weight: bold;
 
-    color: red;
+    background-color: var(--bs-gray-600);
+    pointer-events: none;
 }
 
 .dish__count {

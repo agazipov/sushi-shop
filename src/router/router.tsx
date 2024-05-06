@@ -9,6 +9,7 @@ import Sets from '../page/sets/Sets';
 import Pizzas from '../page/pizzas/Pizzas';
 import Extras from '../page/extras/Extras';
 import Beverages from '../page/beverages/Beverages';
+import Order from '../page/order/Order';
 
 export const PAGINATION = [
     {
@@ -52,18 +53,28 @@ export const PAGINATION = [
                 element: <Beverages />
             },
         ]
+    },
+    {
+        path: '/order',
+        element: <Layer />,
+        children: [
+            {
+                index: true,
+                element: <Order />
+            }
+        ]
     }
 ]
 
 export const PAGINATION_DESCRIPT: { [index: string]: string } = {
-        '/cold_rolls': 'Холодные роллы', 
-        '/fride_rolls': 'Жаренные роллы',   
-        '/baked_rolls': 'Печеные роллы',   
-        '/tortillas_rolls': 'Тортильи',
-        '/sets': 'Сеты',   
-        '/pizzas': 'Пицца',   
-        '/extras': 'Допы',   
-        '/beverages': 'Напитки',
+    '/cold_rolls': 'Холодные роллы',
+    '/fride_rolls': 'Жаренные роллы',
+    '/baked_rolls': 'Печеные роллы',
+    '/tortillas_rolls': 'Тортильи',
+    '/sets': 'Сеты',
+    '/pizzas': 'Пицца',
+    '/extras': 'Допы',
+    '/beverages': 'Напитки',
 }
 
 export const router = createBrowserRouter(PAGINATION);
