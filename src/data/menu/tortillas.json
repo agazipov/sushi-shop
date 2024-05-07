@@ -1,60 +1,60 @@
 [
     {
-        "id": "47927005-839f-4777-b201-f6f8956ac221",
+        "id": "6260a891-3d6f-4257-bed7-8b5a7ff5047e",
         "name": "Холодная тортилья с курочкой",
         "compound": "мексиканская лепешка, творожный сыр, курочка, маринованный огурчик, помидор",
         "price_for_large": 270,
-        "img": "ZD7sjWLlT0w.jpg",
+        "img": "ZD7sjWLlT0w.webp",
         "countByMid": 0,
         "countByLarge": 0,
         "select": "large"
     },
     {
-        "id": "16a990fa-14b6-431a-8343-9e2b2f58b8b7",
+        "id": "8690bf9f-c4ca-4816-85d7-bcf4691412b9",
         "name": "Холодная тортилья с лососем",
         "compound": "мексиканская лепешка, творожный сыр, лосось копченый, Пекинская капуста, помидор",
         "price_for_large": 290,
-        "img": "iAwDetWX218.jpg",
+        "img": "iAwDetWX218.webp",
         "countByMid": 0,
         "countByLarge": 0,
         "select": "large"
     },
     {
-        "id": "c734088f-33de-4134-8a2e-aeeae0854c92",
+        "id": "5b4959f8-ecad-4b28-b247-821d5c6b2ac7",
         "name": "Горячая тортилья с беконом",
         "compound": "Мексиканская лепешка, творожный сыр, свежий огурчик, помидор, бекон, зелёный лук, Пекинская капуста",
         "price_for_large": 290,
-        "img": "VEOkW2g-M0M.jpg",
+        "img": "VEOkW2g-M0M.webp",
         "countByMid": 0,
         "countByLarge": 0,
         "select": "large"
     },
     {
-        "id": "10289905-23a5-401e-aa02-89e34029f777",
+        "id": "2f8645da-7d5c-4541-8633-cfb258af5591",
         "name": "Горячая тортилья с курочкой",
         "compound": "Мексиканская лепешка, творожный сыр, курочка, помидор, свежий огурчик, Пекинская капуста",
         "price_for_large": 290,
-        "img": "kbdbEwlpvlg.jpg",
+        "img": "kbdbEwlpvlg.webp",
         "countByMid": 0,
         "countByLarge": 0,
         "select": "large"
     },
     {
-        "id": "df8c3b81-69a5-4dad-842c-12fcc095f7f6",
+        "id": "9761c4da-7e9f-42dc-a489-29d4051699b0",
         "name": "Горячая тортилья с креветкой",
         "compound": "Мексиканская лепешка, творожный сыр, помидор, свежий огурчик, креветка, Пекинская капуста",
         "price_for_large": 300,
-        "img": "wvffosF9ibM.jpg",
+        "img": "wvffosF9ibM.webp",
         "countByMid": 0,
         "countByLarge": 0,
         "select": "large"
     },
     {
-        "id": "7903b70d-5a37-407a-9247-73c11c0533e3",
+        "id": "f37ee0c9-5d59-4cd0-a4ef-7de3201d23ae",
         "name": "Запечённая тортилья с беконом и ветчиной",
         "compound": "Мексиканская лепешка, творожный сыр, бекон, ветчина, свежий огурчик, помидор, Пекинская капуста, сырная шапочка, чесночный соус",
         "price_for_large": 320,
-        "img": "-QK-ozSIAUo.jpg",
+        "img": "-QK-ozSIAUo.webp",
         "countByMid": 0,
         "countByLarge": 0,
         "select": "large"

@@ -11,6 +11,7 @@ import Extras from '../page/extras/Extras';
 import Beverages from '../page/beverages/Beverages';
 import Order from '../page/order/Order';
 
+
 export const PAGINATION = [
     {
         path: '/',

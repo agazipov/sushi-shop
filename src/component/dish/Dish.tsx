@@ -29,6 +29,7 @@ export function Dish({ dish, viewVariant = 'default' }: IDishComponent) {
     return (
         <div className={`dish ${viewVariant}`}>
             <div className="dish__wrapper">
+            <h5 className="dish__title">{dish.name}</h5>
                 <div className="dish__img">
                     <img
                         height={100}
@@ -38,8 +39,7 @@ export function Dish({ dish, viewVariant = 'default' }: IDishComponent) {
                     />
                 </div>
             </div>
-            <div>
-                <h5>{dish.name}</h5>
+            <div className="dish__info">
                 {dish.price_for_mid &&
                     <div
                         className={`dish__size ${selectDish.select === 'mid' ? 'dish__size_activ' : ''}`}
