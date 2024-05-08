@@ -10,16 +10,16 @@ export interface IDish {
     img: string,
 }
 
+export interface ICart {
+    price: number,
+    countDishes: number,
+    buy: IDish[],
+}
+
 export interface ISet {
     id: string,
     name: string,
     price: number,
     img: string,
     dishes: string[],
-}
-
-export interface ICart {
-    price: number,
-    countDishes: number,
-    buy: IDish[],
 }

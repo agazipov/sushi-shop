@@ -2,9 +2,9 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import { useSelector } from 'react-redux';
 import { selectCart } from '../../redux/features/cart/cart';
-import { RootState } from '../../redux';
 import { Dish } from '../dish/Dish';
 import { useNavigate } from "react-router-dom";
+import { RootState } from '../../redux';
 
 import './ModalCart.css';
 

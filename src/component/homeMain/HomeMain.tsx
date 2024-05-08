@@ -36,7 +36,9 @@ export default function HomeMain() {
                     <p>Для особых ценителей в нашем ассортименте имеется большой выбор пиццы)</p>
                     <p>Бесплатная доставка от 600 руб</p>
                     <div className="discription__btn-group">
-                        <Button variant="dark">Позвоните нам</Button>
+                        <a href="tel:+79089392212">
+                            <Button variant="dark">Позвоните нам</Button>
+                        </a>
                         <Button variant="dark" onClick={handleStartBuy}>Начать покупки</Button>
                     </div>
                 </div>

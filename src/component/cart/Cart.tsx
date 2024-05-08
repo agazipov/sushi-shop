@@ -1,10 +1,8 @@
-
 import { useSelector } from 'react-redux';
 import { RootState } from '../../redux';
 import { selectCart } from '../../redux/features/cart/cart';
 import { createPortal } from 'react-dom';
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import ModalCart from '../modalCart/ModalCart';
 
 import './Cart.css';

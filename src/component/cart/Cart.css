@@ -1,9 +1,9 @@
 .cart {
     position: fixed;
-    top: 10px;
+    top: 110px;
     right: 10px;
 
-    z-index: 20;
+    z-index: 100;
 
     padding: 6px;
 
@@ -21,11 +21,11 @@
     color: black;
 
     outline: 6px solid var(--bs-border-color-translucent);
+}
 
-    & button {
-        border: none;
-        background: none;
-    }
+button {
+    border: none;
+    background: none;
 }
 
 .cart:hover {
