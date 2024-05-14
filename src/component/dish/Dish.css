@@ -1,11 +1,14 @@
 .dish {
     padding: 12px;
+
+    background-color: var(--custom-grey-opacity);
+    border-radius: var(--my-border-radius);
 }
 
 .default {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 14px;
     align-items: center;
     justify-content: space-between;
 }
@@ -13,7 +16,6 @@
 .custom {
     display: flex;
     flex-direction: row;
-    gap: 26px;
     align-items: center;
     justify-content: space-between;
 }
@@ -25,26 +27,53 @@
     flex-direction: column;
 }
 
+.dish__header {
+    display: flex;
+    flex-direction: column;
+}
+
 .dish__title {
-    padding: 4px;
-
     text-align: center;
-
-    border-radius: var(--bs-border-radius);
-
-    background-color: var(--bs-danger-bg-subtle);
 }
 
 .dish__wrapper {
     height: 100%;
 
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+}
+
+.dish__desc {
+    width: 100px;
+    font-size: small;
+    text-align: center;
 }
 
 .dish__info {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dish__info_custom {
+    flex-direction: column;
+    gap: 6px;
+}
+
+.dish__info-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.dish__price {
+    text-wrap: nowrap;
+}
+
+.dish__img {
+    width: 50%;
+    flex-shrink: 0;
 }
 
 .dish__img>img {
@@ -70,11 +99,6 @@
     padding: 4px;
 }
 
-.dish__size:hover {
-    cursor: pointer;
-    background-color: var(--bs-gray-400);
-}
-
 .dish__size_activ {
     text-decoration-line: underline;
     font-weight: bold;
@@ -95,4 +119,36 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+    .dish__size:hover {
+        cursor: pointer;
+        background-color: var(--bs-gray-400);
+    }
+}
+
+@media (max-width: 992px) {
+    .dish__info-wrapper {
+        font-size: small;
+    }
+}
+
+@media (max-width: 576px) {
+    .default {
+        margin: auto 46px;
+    }
+    .dish__info-wrapper {
+        font-size: medium;
+    }
+    .dish__desc {
+        font-size: medium;
+    }
+    .dish__wrapper {
+        justify-content: space-around;
+    }
+    .dish__info_default {
+        justify-content: space-around;
+    }
 }

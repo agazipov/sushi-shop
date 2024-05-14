@@ -23,14 +23,19 @@ const cartSlice = createSlice({
             state.price = checkSize ? state.price + payload.price_for_mid! : state.price + payload.price_for_large!;
 
             addBuyForCart(state, payload, checkSize);
+            localStorage.setItem("cart", JSON.stringify(state));
         },
         delCart: (state, { payload }: PayloadAction<IDish>) => {
             // общая цена в зависимости от порции
             const checkSize = payload.select === 'mid';
             
             delBuyForCart(state, payload, checkSize);
+            localStorage.setItem("cart", JSON.stringify(state));
         },
-        clearCart: () => initialState,
+        clearCart: () => {
+            localStorage.clear();
+            return initialState;
+        },
     }
 })
 

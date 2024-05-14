@@ -28,11 +28,6 @@ button {
     background: none;
 }
 
-.cart:hover {
-    outline: 6px solid var(--bs-gray-400);
-    /* box-shadow: 1px 5px 5px var(--bs-gray-400); */
-}
-
 .cart__info {
     position: absolute;
     top: 0;
@@ -47,4 +42,11 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .cart:hover {
+        outline: 6px solid var(--bs-gray-400);
+        box-shadow: 1px 5px 5px var(--bs-gray-400);
+    }
 }
