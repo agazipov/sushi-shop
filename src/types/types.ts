@@ -23,3 +23,13 @@ export interface ISet {
     img: string,
     dishes: string[],
 }
+
+export type FormData = {
+    name: string
+    phone: string
+    delivery: boolean
+    street: string
+    house: number
+    apartment: number
+    comment: string
+}

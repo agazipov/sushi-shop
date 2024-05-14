@@ -3,35 +3,48 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import { useState } from "react";
+import { FormData, ICart } from "../../types/types";
+import { sendOrderTG } from "../../services/api";
+import { parsedOderForString } from "../../data/oredrMapper";
+import { useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { cartActions } from "../../redux/features/cart/cart";
 
-import './FormOrder.css'
+import './FormOrder.css';
 
-type FormData = {
-    name: string
-    phone: string
-    delivery: boolean
-    street: string
-    house: number
-    apartment: number
-    comment: string
+interface IFormOrder {
+    cart: ICart
 }
 
-export default function FormOrder() {
+export default function FormOrder({ cart }: IFormOrder) {
     const { register, handleSubmit, } = useForm<FormData>({
         defaultValues: {
-            delivery: true,
+            delivery: false,
             street: '',
             house: 0,
             apartment: 0
         }
     });
-
+    const navigate = useNavigate();
     const [viewDelivery, setViewDelivery] = useState(false);
+    const dispatch = useDispatch();
 
-    const onSubmit = handleSubmit((data) => console.log(data));
+    const onSubmit = handleSubmit((data) => {
+        const formedOrder = parsedOderForString(data, cart);
+        try {
+            sendOrderTG(formedOrder)
+            .then((response) => {
+                console.log(response);
+                navigate('/order/success');
+                dispatch(cartActions.clearCart())
+            })
+        } catch (error) {
+            console.log('error', error);
+        }
+    });
 
     return (
-        <Form onSubmit={onSubmit}>
+        <Form onSubmit={onSubmit} className="form__my-style">
             <Form.Label >Контактная информация</Form.Label>
 
             <InputGroup className="mb-3">
@@ -81,7 +94,7 @@ export default function FormOrder() {
 
             <Form.Group className="mb-3" >
                 <Form.Label>Комьентарий к заказу</Form.Label>
-                <Form.Control as="textarea" rows={3} {...register("comment")}/>
+                <Form.Control as="textarea" rows={3} {...register("comment")} />
             </Form.Group>
 
             <Button variant="primary" type="submit">

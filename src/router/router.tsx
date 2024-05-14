@@ -10,6 +10,7 @@ import Pizzas from '../page/pizzas/Pizzas';
 import Extras from '../page/extras/Extras';
 import Beverages from '../page/beverages/Beverages';
 import Order from '../page/order/Order';
+import OrderSuccess from '../page/orderSuccess/OrderSuccess';
 
 
 export const PAGINATION = [
@@ -62,7 +63,11 @@ export const PAGINATION = [
             {
                 index: true,
                 element: <Order />
-            }
+            },
+            {
+                path: 'success',
+                element: <OrderSuccess />
+            },
         ]
     }
 ]

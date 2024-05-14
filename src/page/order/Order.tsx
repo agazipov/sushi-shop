@@ -17,7 +17,7 @@ export default function Order() {
 
     return (
         <section className="order container">
-            <FormOrder />
+            <FormOrder cart={cart}/>
             <OrderList cart={cart} />
         </section>
     )
