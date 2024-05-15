@@ -1,6 +1,9 @@
+const TOKEN_BOT = '';
+const CHAT_ID = ''
+
 export async function sendOrderTG(order: string) {
     const bodyParser = {
-        chat_id: 415893733,
+        chat_id: CHAT_ID,
         text: order,
         reply_markup: {
             inline_keyboard: [
@@ -19,7 +22,7 @@ export async function sendOrderTG(order: string) {
         }
     }
 
-    const response = await fetch("https://api.telegram.org/bot7180326823:AAGaFuKbSjmx3m_5hSsXF-qFCt6tfUtNNM8/sendMessage", {
+    const response = await fetch(`https://api.telegram.org/bot${TOKEN_BOT}8/sendMessage`, {
         method: "POST",
         headers: {
             'Content-Type': 'application/json;charset=utf-8'
