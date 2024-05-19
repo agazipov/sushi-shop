@@ -11,6 +11,7 @@ import Extras from '../page/extras/Extras';
 import Beverages from '../page/beverages/Beverages';
 import Order from '../page/order/Order';
 import OrderSuccess from '../page/orderSuccess/OrderSuccess';
+import Admin from '../page/admin/Admin';
 
 
 export const PAGINATION = [
@@ -69,6 +70,10 @@ export const PAGINATION = [
                 element: <OrderSuccess />
             },
         ]
+    },
+    {
+        path: '/admin',
+        element: <Admin />
     }
 ]
 
